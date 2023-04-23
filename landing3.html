@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Удаление данных из приложения</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f7f7f7;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 50px;
+		}
+		h1 {
+			font-size: 48px;
+			color: #333;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 24px;
+			color: #666;
+			margin-bottom: 40px;
+		}
+		form {
+			display: inline-block;
+			margin-bottom: 40px;
+		}
+		input[type="text"] {
+			padding: 10px;
+			font-size: 18px;
+			border: none;
+			border-radius: 5px;
+			margin-right: 10px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			font-size: 18px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Удаление данных из приложения</h1>
+		<p>Введите почту пользователя и нажмите кнопку "Удалить", чтобы удалить данные из приложения.</p>
+		<form method="post" action="index.html">
+			<input type="text" name="user_id" placeholder="Почта пользователя" required>
+			<input type="submit" value="Удалить">
+		</form>
+		
+	</div>
+</body>
+</html>
